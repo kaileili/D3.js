@@ -1,4 +1,4 @@
-# DSCI 554 Assignment 8
+# D3.JS
 
 The [index.html] contains World population choropleth map, UPC campus area mapbox map and Los Angeles County map 
 

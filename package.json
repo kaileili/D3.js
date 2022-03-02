@@ -1,0 +1,17 @@
+{
+  "name": "lab08",
+  "version": "1.0.0",
+  "description": "lab08",
+  "scripts": {
+    "serve": "browser-sync start ./ -s --files './' --directory --watch",
+    "install-data": "curl http://pdm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "country-json": "^1.1.0",
+    "d3": "^6.2.0",
+    "highlight.js": "^10.3.2"
+  }
+}

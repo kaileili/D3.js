@@ -1,0 +1,50 @@
+{"id":"FeatureCollection","name":[
+{
+    "id": "AF",
+    "name": "Afghanistan",
+    "value": 32358260
+},
+	  {
+    "id": "AL",
+    "name": "Albania",
+    "value": 3215988
+},
+	  {
+    "id": "DZ",
+    "name": "Algeria",
+    "value": 35980193
+},
+	  {
+    "id": "AO",
+    "name": "Angola",
+    "value": 19618432
+},
+	  {
+    "id": "AR",
+    "name": "Argentina",
+    "value": 40764561
+},
+	  {
+    "id": "AM",
+    "name": "Armenia",
+    "value": 3100236
+},
+	  {
+    "id": "AU",
+    "name": "Australia",
+    "value": 2260573
+},
+	  {
+    "id": "AT",
+    "name": "Austria",
+    "value": 8413429
+},
+	  
+      {
+    "id": "ZW",
+    "name": "Zimbabwe",
+    "value": 12754378
+}
+
+]}
+

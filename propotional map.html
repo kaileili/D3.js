@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<link rel="stylesheet" type="text/css" href="data/po.css">
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
+
+<script src="https://d3js.org/d3.v2.js"></script>
+
+</head>
+
+<h1>	
+    World Carbon Dioxide Emissions by Country
+    </h1>
+    <h1>expressed in Million Metric Tons Carbon Dioxide</h1>
+<body>
+
+
+
+<div id="graph" style="width:20px;height:170px"></div>
+
+<p>
+<label for="year">Year :</label>
+<input type="text" id="year" style="border:0; color:#f6931f; font-weight:bold; " />
+</p>
+<div id='legend' style="width:100px;height:250px;" alignment-baseline="right">
+<div id="slider" style="width: 100px;"></div>
+</div>
+
+
+<script type="text/javascript" src='data/po.js'></script>
+
+</body>
+
+<p>co2 data source: UN Data https://data.un.org/</p>
+<p>world countries data https://github.com/johan/world.geo.json/blob/master/countries.geo.json</p>
+<p>Code from http://stackoverflow.com/questions/11386150/lat-lon-positon-on-a-d3-js-map</p>
+</html>

@@ -1,0 +1,17 @@
+path {
+    stroke: white;
+    stroke-width: 0.25px;
+    fill: lightskyblue;
+  }
+  
+circle {
+fill: steelblue;
+fill-opacity: .6;
+stroke: #fff;
+}
+
+.symbol {
+  fill: lightcoral;
+  fill-opacity: .8;
+  stroke: #fff;
+}

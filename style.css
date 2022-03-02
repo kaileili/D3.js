@@ -1,0 +1,130 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+}
+
+h1 {
+  padding: 10px;
+  border: 3px solid #777;
+  font-size: 1.8em;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px 20px 0px 0px;
+  font-size: 1.5em;
+}
+
+h3 {
+  padding: 0px;
+  margin: 20px 0px 0px 0px;
+  font-size: 1.2em;
+}
+
+h4 {
+  padding: 0px;
+  margin: 20px 0px 0px 0px;
+  font-size: 1em;
+}
+
+hr {
+  margin: 2px 0px 0px 0px;
+  height: 2px;
+  border-width: 0;
+  color: #bbb;
+  background-color: #bbb;
+}
+
+.title {
+  display: block;
+  font-size: 0.75em;
+  font-style: italic;
+  color: #777;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.sample {
+  border: 2px dotted lightgrey;
+  padding: 10px;
+}
+
+.answer {
+  border: 2px solid lightgrey;
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.nb {
+  font-size: 0.75em;
+  color: #888;
+}
+
+kbd {
+  font-family: monospace;
+}
+
+.alert h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+.alert {
+  background-color: rgb(248, 248, 248);
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.85em;
+  color: #666;
+  text-align: left;
+  display: inline-block;
+}
+
+.info {
+  background-color: rgb(243, 248, 250);
+}
+
+.warning {
+  background-color: rgb(253, 248, 243);
+}
+
+.danger {
+  background-color: rgb(254, 246, 246);
+}
+
+.container {
+  display: flex; }
+
+.col {
+  flex: 1; }
+
+.col-2 {
+  flex: 2; }
+
+.col-3 {
+  flex: 3; }
+
+.col-4 {
+  flex: 3; }
+
+html, body, #map { height: 100%; }
+
+.selected {
+  fill: red;
+}
+.cities {
+  fill: whitesmoke;
+  stroke: #666;
+  stroke-width: 0.5px;
+}
+
+path {
+  stroke: black;
+  stroke-width: .5;
+  fill: lightgray;
+}
+circle {
+  stroke: white;
+  stroke-width: .25;
+  fill: rgba(255,0,0,.3)
+}

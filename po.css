@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .footer {
+     color: #888888;
+     font-size: 8px;
+     text-align: right;
+ }
+ 
+ #states path {
+   fill: #ccc;
+   stroke: #fff;
+ }
+ 
+ circle {
+   fill: steelblue;
+   fill-opacity: .6;
+   stroke: #fff;
+ }
+ 
+ body {
+   color:darkslategray;
+ }
+ #legend {
+   width: 100px; 
+   height: 150px; 
+   border-radius: 3px; 
+   background: grey;
+   padding: 10px;  
+   font-family: arial; 
+ }
+ .circle {
+   width: 20px; 
+   border-radius: 100%;
+ }
+ 

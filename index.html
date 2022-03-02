@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DSCI 554 Assignment 8</title>
+</head>
+
+<body>
+    <div>kailei Lin <a href="kaileili@usc.edu">kaileili@usc.edu</a></div>
+
+
+</head>
+
+
+
+
+
+	<h1> World population choropleth map</h1>
+	<h2>Top 50 most populated country</h2>
+	<link rel="stylesheet" href="data/style2.css">
+	  <body>
+	  <script src="https://d3js.org/d3.v4.min.js"></script>
+	  <script src="https://d3js.org/queue.v1.min.js"></script>
+	  <script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+	  <script src="data/d3-tip.js"></script>
+	  <script src="data/choromap.js"></script>
+	  <h2>Source: UN data </h2>
+	  
+
+ <h1>Los Angeles County Zipcode lookup Map</h1>
+ <link rel="stylesheet" href="data/style.css">
+	<link rel="stylesheet" href="/node_modules/highlightjs/styles/github.css">
+	<script src="/node_modules/highlightjs/highlight.pack.min.js"></script>
+  	<script>hljs.initHighlightingOnLoad();</script>
+
+	<script src="/node_modules/d3/dist/d3.min.js"></script>
+	
+ <div><small>Mouse over the map to display zipcode</small></div>
+		<div class="container">
+			<div class="col">
+				<svg id="svg2" width="300" height="300"></svg>				
+			</div>
+			<div class="col">
+				<span class="alert" id="info2"></span>				
+			</div>
+		</div>
+ <script src="data/map3.js"></script>
+ 
+ <h1>University Park Map</h1>
+ <p>The building footprints data is acquired from City of Los Angeles Geohub, QGIS was used to spatial join building occupancy csv [field=area] to the existing building footprints dataset </p>
+ <head>
+	<meta charset="utf-8" />
+	<title>Display a map</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+	<link rel="stylesheet" href="data/mapbox.css">
+	</head>
+	<body>
+	<div class="mapbox_container" style="width: 600px; height: 600px;">
+	<div id='map'></div>
+<div class='map-overlay' id='features'><h2>USC University Park Campus Building Capacity</h2><div id='pd'><p>Query a building!</p></div></div>
+	
+	<div id="state-legend" class="legend">
+		<h4>Area</h4>
+		<div><span style="background-color: #723122"></span>72,500</div>
+		<div><span style="background-color: #8b4225"></span>62,500</div>
+		<div><span style="background-color: #a25626"></span>52,500</div>
+		<div><span style="background-color: #b86b25"></span>42,500</div>
+		<div><span style="background-color: #ca8323"></span>32,500</div>
+		<div><span style="background-color: #da9c20"></span>22,500</div>
+		<div><span style="background-color: #e6b71e"></span>12,500</div>
+		<div><span style="background-color: #eed322"></span>7500</div>
+		<div><span style="background-color: #f2f12d"></span>2500</div>
+		</div>
+		</div>
+	<script src="data/mapbox.js"></script>
+</body>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+</body>
+
+	
+
+
+
+
+
+
+
+
+
+		
+<div>
+ <p>Los Angeles Zip code data source GeoHub Los Angeles Rights reserved City of Los Angeles</p>
+ <p>Los Angeles building occupancy https://buildla.lacity.org/ City of Los Angeles</p>
+ <p>Los Angeles building footprint  County of Los Angeles Open Data https://data.lacounty.gov/browse?limitTo=maps&utf8=%E2%9C%93</p>
+ <p>Mapbox </p>
+</div>
+</body>
+
+
+</html>
